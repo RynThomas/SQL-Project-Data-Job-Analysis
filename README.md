@@ -1,10 +1,10 @@
 # Introduction
-Welcome to my SQL Portfolio Project, where I delve into the data job market with a focus on buusiness analyst roles. This project is a personal exploration into identifying the top-paying jobs, in-demand skills, and the intersection of high demand with high salary in the field of data analytics.
+Welcome to my SQL Portfolio Project, where I delve into the data job market with a focus on business analyst roles. This project is a personal exploration into identifying the top-paying jobs, in-demand skills, and the intersection of high demand with high salary in the field of data analytics.
 
 The SQL queries leveraged for the analysis can be found at [project_sql](https://github.com/RynThomas/SQL-Project-Data-Job-Analysis/tree/main/project_sql)
 
 # Background
-The motivation behind this project stemmed from my desire to understand the business analyst job market better. I aimed to discover which skills are paid the most and in demand, making my job search more targeted and effective. 
+The motivation behind this project stemmed from my desire to understand the business analyst job market better. I aimed to discover which skills are paid the most and in demand, making a job search in this space more targeted and effective. 
 
 The data for this analysis is from Luke Barousse’s [SQL Course](https://lukebarousse.com/sql). This data includes details on job titles, salaries, locations, and required skills. Note that this data stems from 2023, but is still more than relevant for positions posted in 2024.
 
@@ -18,6 +18,8 @@ The data for this analysis is from Luke Barousse’s [SQL Course](https://lukeba
 4. Which skills are associated with higher salaries?
 
 5. What are the most optimal skills to learn?
+
+Each question focused on the positions or skills required for those within my local job market, so each query aimed to answer these will filter to positions available in Virginia or remotely.
 
 # Tools Used
 - SQL: The code leveraged to query the database and gather critical insights.
