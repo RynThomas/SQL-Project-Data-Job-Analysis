@@ -4,6 +4,8 @@ With the goal of analyzing the job market for business analyst positions further
 
 Data hails from Luke Barousse's [SQL Course](https://lukebarousse.com/sql). It's packed with insights on job titles, salaries, locations, and essential skills within the data and engineering field.
 
+The SQL queries leveraged for the analysis can be found at [project_sql](https://github.com/RynThomas/SQL-Project-Data-Job-Analysis/tree/main/project_sql)
+
 ## The questions I wanted to answer through my SQL queries were:
 
 1. What are the top-paying data analyst jobs?
