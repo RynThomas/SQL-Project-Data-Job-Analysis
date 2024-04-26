@@ -2,7 +2,7 @@
 # Background
 With the goal of analyzing the job market for business analyst positions further, this project provides a review of some of the top-paying and in-demand skills, jobs, and how those intersect.
 
-Data hails from Luke Barousse's SQL Course. It's packed with insights on job titles, salaries, locations, and essential skills within the data and engineering field.
+Data hails from Luke Barousse's [SQL Course](https://lukebarousse.com/sql). It's packed with insights on job titles, salaries, locations, and essential skills within the data and engineering field.
 
 ## The questions I wanted to answer through my SQL queries were:
 
