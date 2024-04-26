@@ -20,4 +20,4 @@ Data hails from Luke Barousse's SQL Course. It's packed with insights on job tit
 - SQL
 - PostgreSQL
 - Visual Studio Code
-- Git & Github
+- Git & GitHub
