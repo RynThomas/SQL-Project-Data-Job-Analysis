@@ -32,7 +32,7 @@ Each query (5 total) of the project aims to investigate a particular aspect abou
 
 ## 1. Top Paying Business Analyst Roles
 To identify the highest-paying roles, I filtered data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high paying opportunities in the field.
-```
+``` sql
 -- Identify the top 10 paying Business Analyst roles available remotely or locally.
 SELECT
     job_postings.job_id,
@@ -56,7 +56,7 @@ LIMIT 10;
 
 ## 2. Skills for Top Paying Jobs
 To understand what skills are required for the top-paying jobs, I joined the job postings with the skills data, providing insights into what employers value for high-compensation roles.
-```
+```sql
 -- Identify the top 10 paying skills required for Business Analyst roles available remotely or locally.
 -- Captures the top 10 paying Business Analyst roles.
 WITH top_paying_jobs AS (
@@ -94,7 +94,7 @@ ORDER BY
 
 ## 3. In-Demand Skills for Business Analysts
 This query helped identify the skills most frequently requested in job postings, directing focus to areas with high demand.
-```
+```sql
 -- Identifies the top 5 most demanded skills for remote or local Business Analyst job postings.
 SELECT
     skills.skills,
@@ -117,7 +117,7 @@ LIMIT 5;
 
 ## 4. Skills Based on Salary
 Exploring the average salaries associated with different skills revealed which skills are the highest paying.
-```
+```sql
 
 -- Calculates the average salary for remote or local Business Analyst job postings by individual skill.
 SELECT
@@ -141,7 +141,7 @@ ORDER BY
 
 ## 5. Most Optimal Skills to Learn
 Combining insights from demand and salary data, this query aimed to pinpoint skills that are both in high demand and have high salaries, offering a strategic focus for skill development.
-```
+```sql
 -- Return 10 skills with the highest demand and salaries for Business analyst roles
 SELECT
     skills_dim.skills, 
