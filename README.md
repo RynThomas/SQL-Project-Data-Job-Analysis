@@ -1,19 +1,19 @@
 # Introduction
 Welcome to my SQL Portfolio Project, where I delve into the data job market with a focus on business analyst roles. This project is a personal exploration into identifying the top-paying jobs, in-demand skills, and the intersection of high demand with high salary in the field of data analytics.
 
-The SQL queries leveraged for the analysis can be found at [project_sql](https://github.com/RynThomas/SQL-Project-Data-Job-Analysis/tree/main/project_sql)
+The SQL queries leveraged for the analysis can be found in the repository at [project_sql](https://github.com/RynThomas/SQL-Project-Data-Job-Analysis/tree/main/project_sql)
 
 # Background
-The motivation behind this project stemmed from my desire to understand the business analyst job market better. I aimed to discover which skills are paid the most and in demand, making a job search in this space more targeted and effective. 
+The data for this analysis is from Luke Barousse’s [SQL Course](https://lukebarousse.com/sql). This data includes details on job titles, salaries, locations, and required skills for roles within the data analytics field. Note that this data stems from 2023, but is still more than relevant for positions posted in 2024. I plan to leverage the data analysis skills gained from this project within the product and project management space, but I focused the analysis here on business analyst positions, since the skills for those most closely resemble those of my position out of the data available.
 
-The data for this analysis is from Luke Barousse’s [SQL Course](https://lukebarousse.com/sql). This data includes details on job titles, salaries, locations, and required skills. Note that this data stems from 2023, but is still more than relevant for positions posted in 2024.
+
 
 ## The questions I wanted to answer through my SQL queries were:
-1. What are the top-paying data analyst jobs?
+1. What are the top-paying business analyst jobs?
 
 2. What skills are required for these top-paying jobs?
 
-3. What skills are most in demand for data analysts?
+3. What skills are most in demand for business analysts?
 
 4. Which skills are associated with higher salaries?
 
@@ -31,7 +31,7 @@ Each question focused on the positions or skills required for those within my lo
 Each query (5 total) of the project aims to investigate a particular aspect about the business analyst job market, primarily related to salary and skills for these positions.
 
 ## 1. Top Paying Business Analyst Roles
-To identify the highest-paying roles, I filtered data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high paying opportunities in the field.
+To identify the highest-paying roles, I filtered data analyst positions by average yearly salary and location, focusing on remote or local jobs. This query highlights the high paying opportunities in the field.
 ``` sql
 -- Identify the top 10 paying Business Analyst roles available remotely or locally.
 SELECT
@@ -177,10 +177,10 @@ Throughout this project, I honed several key SQL techniques and skills:
 # Conclusions 
 ## Insights
 From the analysis, several general insights emerged:
-1. **Top-Paying Business Analyst Jobs**: The highest-paying jobs for business analysts in VA or that allow remote work offer a wide range of salaries, the highest at $X!
+1. **Top-Paying Business Analyst Jobs**: The highest-paying jobs for business analysts in VA or that allow remote work offer a wide range of salaries, with the highest at $X!
 2. **Skills for Top-Paying Jobs**: 
 3. **Most In-Demand Skills**: 
 4. **Skills with Higher Salaries**: 
 5. **Optimal Skills for Job Market Value**:
 ## Final Thoughts
-This project enhanced my SQL skills and provided valuable insights into the business analyst job market. The findings from the analysis serve as a guide to prioritizing skill development and job search efforts. Aspiring business analysts can better position themselves in a competitive job market by focusing on high-demand, high-salary skills. This exploration highlights the importance of continuous learning and adaptation to emerging trends in the field of data analytics.
+This project enhanced my SQL skills and provided valuable insights into the business analyst job market, which I can also leverage within the product and project management space. The findings from the analysis serve as a guide to prioritizing skill development as part of an individual growth plan. An individual's development should be further focused on in-demand and high-paying skills. This exploration highlights the importance of continuous learning and adaptation to emerging trends in the field of data analytics.
